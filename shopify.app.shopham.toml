@@ -2,7 +2,7 @@
 
 client_id = "e660d197f58da1c3eea0b88bcd0e9ff1"
 name = "ShopHam"
-application_url = "https://example.com"
+application_url = "https://shopham-registry.onrender.com"
 embedded = true
 
 [build]
@@ -39,9 +39,9 @@ api_version = "2027-01"
 scopes = "read_inventory,read_orders,read_products,write_merchant_managed_fulfillment_orders"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://shopham-registry.onrender.com/api/auth" ]
 
 [app_proxy]
-url = "https://example.com/proxy"
+url = "https://shopham-registry.onrender.com/proxy"
 subpath = "registry"
 prefix = "apps"
