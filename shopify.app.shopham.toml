@@ -1,47 +1,18 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "e660d197f58da1c3eea0b88bcd0e9ff1"
+client_id = "c570d7827623308b468872dfffde0223"
 name = "ShopHam"
-application_url = "https://shopham-registry.onrender.com"
+application_url = "https://shopham-registry.onrender.com/"
 embedded = true
-
-[build]
-automatically_update_urls_on_dev = true
 
 [webhooks]
 api_version = "2027-01"
 
-  # Registry purchases: this is what updates the tracker when a guest buys a gift.
-  [[webhooks.subscriptions]]
-  topics = [ "orders/paid" ]
-  uri = "/webhooks/orders/paid"
-
-  # If the order is cancelled the gift goes back on the registry.
-  [[webhooks.subscriptions]]
-  topics = [ "orders/cancelled" ]
-  uri = "/webhooks/orders/cancelled"
-
-  [[webhooks.subscriptions]]
-  topics = [ "app/uninstalled" ]
-  uri = "/webhooks/app/uninstalled"
-
-  [[webhooks.subscriptions]]
-  topics = [ "app/scopes_update" ]
-  uri = "/webhooks/app/scopes_update"
-
-  # Mandatory privacy webhooks (required for App Store apps).
-  [[webhooks.subscriptions]]
-  compliance_topics = [ "customers/data_request", "customers/redact", "shop/redact" ]
-  uri = "/webhooks/compliance"
-
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = "read_inventory,read_orders,read_products,write_merchant_managed_fulfillment_orders"
+optional_scopes = [ ]
+use_legacy_install_flow = false
 
 [auth]
-redirect_urls = [ "https://shopham-registry.onrender.com/api/auth" ]
-
-[app_proxy]
-url = "https://shopham-registry.onrender.com/proxy"
-subpath = "registry"
-prefix = "apps"
+redirect_urls = [ ]
