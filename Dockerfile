@@ -15,4 +15,4 @@ COPY . .
 
 RUN npm run build
 
-CMD ["npm", "run", "docker-start"]
+CMD ["sh", "-c", "echo '--- ENV NAMES ---'; env | cut -d= -f1 | sort; echo '--- END ---'; npm run docker-start"]
