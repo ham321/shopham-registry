@@ -240,7 +240,7 @@ If the CLI returns a blocking error (`AUTH_REQUIRED`, `INSUFFICIENT_PERMISSIONS`
 When the buyer says "buy from <merchant>" or "what's available on <merchant>", show the merchant domain and ask for confirmation before discovery:
 
 ```sh
-ucp discover --business https://buyer-named-merchant.example.com
+ucp discover --business https://buyer-named-merchant.shopham-registry.onrender.com
 ```
 
 - **Success** → merchant supports UCP. Pass `--business <url>` on subsequent operations.

@@ -112,7 +112,7 @@ These one-line examples enumerate every prop on each React component. Pick one v
 <Banner id="anyString" title="anyString" tone="info" dismissible onDismiss={() => {}} primaryAction={<Button>OK</Button>} secondaryAction={<Button>Cancel</Button>} />
 <BlockStack id="anyString" accessibilityLabel="anyString" accessibilityRole="main" gap="base" blockGap="base" rowGap="base" blockSize={0} minBlockSize={0} maxBlockSize={0} inlineSize={0} minInlineSize={0} maxInlineSize={0} padding="base" paddingBlock="base" paddingBlockStart="base" paddingBlockEnd="base" paddingInline="base" paddingInlineStart="base" paddingInlineEnd="base" inlineAlignment="start" blockAlignment="start" />
 <Box accessibilityRole="main" blockSize={0} minBlockSize={0} maxBlockSize={0} inlineSize={0} minInlineSize={0} maxInlineSize={0} padding="base" paddingBlock="base" paddingBlockStart="base" paddingBlockEnd="base" paddingInline="base" paddingInlineStart="base" paddingInlineEnd="base" display="auto" />
-<Button id="anyString" accessibilityLabel="anyString" disabled variant="primary" tone="default" lang="en" href="https://example.com" to="https://example.com" download target="_self" onClick={() => {}} onPress={() => {}} onBlur={() => {}} onFocus={() => {}} />
+<Button id="anyString" accessibilityLabel="anyString" disabled variant="primary" tone="default" lang="en" href="https://shopham-registry.onrender.com" to="https://shopham-registry.onrender.com" download target="_self" onClick={() => {}} onPress={() => {}} onBlur={() => {}} onFocus={() => {}} />
 <Checkbox id="anyString" accessibilityLabel="anyString" checked disabled error="anyString" label="anyString" name="anyString" value={false} onChange={(value) => {}} />
 <ChoiceList name="anyString" disabled error="anyString" readOnly defaultValue="anyString" value="anyString" multiple choices={[{ id: "anyString", label: "anyString" }]} onChange={(value) => {}} />
 <ColorPicker id="anyString" allowAlpha value="#000000" onChange={(value) => {}} />
@@ -126,23 +126,23 @@ These one-line examples enumerate every prop on each React component. Pick one v
 <Heading id="anyString" size={1} />
 <HeadingGroup />
 <Icon id="anyString" accessibilityLabel="anyString" tone="inherit" size="base" name="ChecklistMajor" />
-<Image id="anyString" accessibilityRole="decorative" accessibilityLabel="anyString" loading="eager" source="https://example.com/img.png" onLoad={() => {}} onError={() => {}} />
+<Image id="anyString" accessibilityRole="decorative" accessibilityLabel="anyString" loading="eager" source="https://shopham-registry.onrender.com/img.png" onLoad={() => {}} onError={() => {}} />
 <InlineStack id="anyString" accessibilityLabel="anyString" accessibilityRole="main" gap="base" blockGap="base" rowGap="base" columnGap="base" inlineGap="base" blockSize={0} minBlockSize={0} maxBlockSize={0} inlineSize={0} minInlineSize={0} maxInlineSize={0} padding="base" paddingBlock="base" paddingBlockStart="base" paddingBlockEnd="base" paddingInline="base" paddingInlineStart="base" paddingInlineEnd="base" inlineAlignment="start" blockAlignment="start" />
 <InternalCustomerSegmentTemplate title="anyString" description="anyString" icon="CategoriesIcon" query="anyString" queryToInsert="anyString" dependencies={{}} createdOn="2026-05-25T00:00:00Z" category="firstTimeBuyers" />
 <InternalLocationList locationGroups={[]} onMoveGroup={(oldIndex, newIndex) => {}} onRenameGroup={(id, name) => {}} onDeleteGroup={(id) => {}} onMoveTag={(tagId, oldGroupIndex, newGroupIndex) => {}} onCreateGroup={(id) => {}} />
-<Link id="anyString" accessibilityLabel="anyString" href="https://example.com" to="https://example.com" tone="default" lang="en" target="_self" onClick={() => {}} onPress={() => {}} />
+<Link id="anyString" accessibilityLabel="anyString" href="https://shopham-registry.onrender.com" to="https://shopham-registry.onrender.com" tone="default" lang="en" target="_self" onClick={() => {}} onPress={() => {}} />
 <MoneyField id="anyString" label="anyString" name="anyString" placeholder="anyString" value={0} error="anyString" disabled readOnly required maxLength={100} minLength={0} max={1000} min={0} step={1} suffix="anyString" autocomplete="transaction-amount" currencyCode="USD" onBlur={() => {}} onChange={(value) => {}} onFocus={() => {}} onInput={(value) => {}} />
 <NumberField id="anyString" label="anyString" name="anyString" placeholder="anyString" value={0} error="anyString" disabled readOnly required maxLength={100} minLength={0} max={1000} min={0} step={1} inputMode="decimal" suffix="anyString" autocomplete="one-time-code" onBlur={() => {}} onChange={(value) => {}} onFocus={() => {}} onInput={(value) => {}} />
 <Paragraph id="anyString" fontSize="base" fontWeight="base" textOverflow="ellipsis" fontStyle="normal" />
 <PasswordField id="anyString" label="anyString" name="anyString" placeholder="anyString" value="anyString" error="anyString" disabled readOnly required maxLength={100} minLength={0} autocomplete="new-password" onBlur={() => {}} onChange={(value) => {}} onFocus={() => {}} onInput={(value) => {}} />
-<Pressable id="anyString" accessibilityRole="main" accessibilityLabel="anyString" href="https://example.com" to="https://example.com" tone="default" lang="en" target="_self" blockSize={0} minBlockSize={0} maxBlockSize={0} inlineSize={0} minInlineSize={0} maxInlineSize={0} padding="base" paddingBlock="base" paddingBlockStart="base" paddingBlockEnd="base" paddingInline="base" paddingInlineStart="base" paddingInlineEnd="base" display="auto" onClick={() => {}} onPress={() => {}} />
+<Pressable id="anyString" accessibilityRole="main" accessibilityLabel="anyString" href="https://shopham-registry.onrender.com" to="https://shopham-registry.onrender.com" tone="default" lang="en" target="_self" blockSize={0} minBlockSize={0} maxBlockSize={0} inlineSize={0} minInlineSize={0} maxInlineSize={0} padding="base" paddingBlock="base" paddingBlockStart="base" paddingBlockEnd="base" paddingInline="base" paddingInlineStart="base" paddingInlineEnd="base" display="auto" onClick={() => {}} onPress={() => {}} />
 <ProgressIndicator id="anyString" accessibilityLabel="anyString" size="small-200" tone="inherit" variant="spinner" />
 <Section accessibilityLabel="anyString" heading="anyString" padding="base" />
 <Select id="anyString" label="anyString" name="anyString" placeholder="anyString" value="anyString" error="anyString" disabled readOnly required options={[{ label: "anyString", value: "anyString", disabled: false }, { label: "anyString", disabled: false, options: [{ label: "anyString", value: "anyString" }] }]} onBlur={() => {}} onChange={(value) => {}} onFocus={() => {}} />
 <Text id="anyString" fontWeight="base" textOverflow="ellipsis" fontVariant="numeric" fontStyle="normal" accessibilityRole="strong" />
 <TextArea id="anyString" label="anyString" name="anyString" placeholder="anyString" value="anyString" error="anyString" disabled readOnly required maxLength={100} minLength={0} rows={4} autocomplete="name" onBlur={() => {}} onChange={(value) => {}} onFocus={() => {}} onInput={(value) => {}} />
 <TextField id="anyString" label="anyString" name="anyString" placeholder="anyString" value="anyString" error="anyString" disabled readOnly required maxLength={100} minLength={0} suffix="anyString" autocomplete="name" onBlur={() => {}} onChange={(value) => {}} onFocus={() => {}} onInput={(value) => {}} />
-<URLField id="anyString" label="anyString" name="anyString" placeholder="anyString" value="https://example.com" error="anyString" disabled readOnly required maxLength={100} minLength={0} autocomplete="url" onBlur={() => {}} onChange={(value) => {}} onFocus={() => {}} onInput={(value) => {}} />
+<URLField id="anyString" label="anyString" name="anyString" placeholder="anyString" value="https://shopham-registry.onrender.com" error="anyString" disabled readOnly required maxLength={100} minLength={0} autocomplete="url" onBlur={() => {}} onChange={(value) => {}} onFocus={() => {}} onInput={(value) => {}} />
 ```
 
 ## Polaris Web Components (all versions except 2025-07)
@@ -168,13 +168,13 @@ Refer to the developer documentation to find all valid values for a prop. Ensure
 ```html
 <s-admin-action heading="Edit product" loading>Content</s-admin-action>
 <s-admin-block heading="Custom Fields" collapsedSummary="3 fields configured">Content</s-admin-block>
-<s-admin-print-action src="https://example.com/invoice.pdf"></s-admin-print-action>
+<s-admin-print-action src="https://shopham-registry.onrender.com/invoice.pdf"></s-admin-print-action>
 <s-app-nav><s-link href="/settings">Settings</s-link></s-app-nav>
-<s-avatar initials="JD" src="https://example.com/avatar.jpg" size="base" alt="Jane Doe"></s-avatar>
+<s-avatar initials="JD" src="https://shopham-registry.onrender.com/avatar.jpg" size="base" alt="Jane Doe"></s-avatar>
 <s-badge tone="success" color="base" icon="check-circle" size="base">Fulfilled</s-badge>
 <s-banner heading="Important notice" tone="info" dismissible hidden>Message content</s-banner>
 <s-box accessibilityLabel="Container" accessibilityRole="group" accessibilityVisibility="visible" background="subdued" blockSize="auto" border="base" borderColor="base" borderRadius="base" borderStyle="solid" borderWidth="base" display="auto" inlineSize="100%" maxBlockSize="500px" maxInlineSize="100%" minBlockSize="100px" minInlineSize="50px" overflow="hidden" padding="base" paddingBlock="large" paddingBlockStart="base" paddingBlockEnd="base" paddingInline="large" paddingInlineStart="base" paddingInlineEnd="base">Content</s-box>
-<s-button accessibilityLabel="Save product" disabled command="--show" commandFor="my-modal" icon="save" interestFor="my-tooltip" lang="en" loading type="submit" tone="auto" variant="primary" target="_self" href="https://example.com" download="file.csv" inlineSize="fill">Save</s-button>
+<s-button accessibilityLabel="Save product" disabled command="--show" commandFor="my-modal" icon="save" interestFor="my-tooltip" lang="en" loading type="submit" tone="auto" variant="primary" target="_self" href="https://shopham-registry.onrender.com" download="file.csv" inlineSize="fill">Save</s-button>
 <s-button-group gap="base" accessibilityLabel="Actions"><s-button slot="primary-action" variant="primary">Save</s-button><s-button slot="secondary-actions">Cancel</s-button></s-button-group>
 <s-checkbox accessibilityLabel="Accept" checked defaultChecked details="Required" error="Must accept" label="Accept terms" required name="terms" disabled value="accepted" indeterminate defaultIndeterminate></s-checkbox>
 <s-chip color="base" accessibilityLabel="Category">Electronics</s-chip>
@@ -187,13 +187,13 @@ Refer to the developer documentation to find all valid values for a prop. Ensure
 <s-date-picker type="range" value="2025-03-01" defaultValue="2025-01-01" name="dateRange" defaultView="2025-06" view="2025-03" allow="2025--" disallow="2025-12-25" allowDays="1,2,3,4,5" disallowDays="0,6"></s-date-picker>
 <s-divider direction="inline" color="base"></s-divider>
 <s-drop-zone accept=".jpg,.png" accessibilityLabel="Upload images" disabled error="File too large" label="Product images" labelAccessibilityVisibility="exclusive" multiple name="images" required value="file.jpg"></s-drop-zone>
-<s-email-field name="email" value="test@example.com" defaultValue="user@shop.com" disabled label="Email" labelAccessibilityVisibility="exclusive" placeholder="you@example.com" readOnly required error="Invalid email" details="Contact email" autocomplete="email" maxLength="100" minLength="5"></s-email-field>
+<s-email-field name="email" value="test@shopham-registry.onrender.com" defaultValue="user@shop.com" disabled label="Email" labelAccessibilityVisibility="exclusive" placeholder="you@shopham-registry.onrender.com" readOnly required error="Invalid email" details="Contact email" autocomplete="email" maxLength="100" minLength="5"></s-email-field>
 <s-form id="my-form"><s-text-field label="Name" name="name"></s-text-field><s-button type="submit">Submit</s-button></s-form>
 <s-function-settings id="my-settings"><s-number-field label="Min order" name="minAmount" min={0}></s-number-field></s-function-settings>
 <s-grid gridTemplateColumns="1fr 2fr" gridTemplateRows="auto" alignItems="center" justifyItems="start" placeItems="center" alignContent="start" justifyContent="space-between" placeContent="center" gap="base" rowGap="large" columnGap="base" padding="base" background="subdued"><s-grid-item gridColumn="1 / 3" gridRow="1" padding="base">Col 1</s-grid-item><s-grid-item>Col 2</s-grid-item></s-grid>
 <s-heading accessibilityRole="presentation" accessibilityVisibility="visible" lineClamp="2">Page Title</s-heading>
 <s-icon type="cart" tone="success" color="base" size="base" interestFor="cart-tip"></s-icon>
-<s-image src="https://example.com/product.jpg" srcSet="img-1x.jpg 1x, img-2x.jpg 2x" sizes="(max-width: 600px) 100vw, 50vw" alt="Product" loading="lazy" accessibilityRole="presentation" inlineSize="100%" aspectRatio="16/9" objectFit="cover" border="base" borderColor="base" borderRadius="base" borderStyle="solid" borderWidth="base"></s-image>
+<s-image src="https://shopham-registry.onrender.com/product.jpg" srcSet="img-1x.jpg 1x, img-2x.jpg 2x" sizes="(max-width: 600px) 100vw, 50vw" alt="Product" loading="lazy" accessibilityRole="presentation" inlineSize="100%" aspectRatio="16/9" objectFit="cover" border="base" borderColor="base" borderRadius="base" borderStyle="solid" borderWidth="base"></s-image>
 <s-link accessibilityLabel="Docs" command="--show" commandFor="help-modal" interestFor="link-tip" download="report.csv" href="https://shopify.dev" lang="en" target="_self" tone="auto">Shopify Docs</s-link>
 <s-menu id="actions-menu" accessibilityLabel="Product actions"><s-button variant="tertiary" icon="edit">Edit</s-button><s-button variant="tertiary" icon="delete" tone="critical">Delete</s-button></s-menu>
 <s-modal id="confirm" heading="Delete" padding="base" size="base">Sure?</s-modal>

@@ -148,7 +148,7 @@ _ media>`meta tags. The`url`property should be the URL of the media. The`height`
      * {
      *   media: [
      *     {
-     *       url: 'https://example.com/image.jpg',
+     *       url: 'https://shopham-registry.onrender.com/image.jpg',
      *       type: 'image',
      *       height: '400',
      *       width: '400',

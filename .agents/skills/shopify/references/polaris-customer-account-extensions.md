@@ -98,7 +98,7 @@ Refer to the developer documentation to find all valid values for a prop. Ensure
 <s-announcement>Important update content</s-announcement>
 <s-avatar
   initials="JD"
-  src="https://example.com/avatar.jpg"
+  src="https://shopham-registry.onrender.com/avatar.jpg"
   size="base"
   alt="Jane Doe"
 ></s-avatar>
@@ -181,17 +181,17 @@ Refer to the developer documentation to find all valid values for a prop. Ensure
 <s-heading>Section Title</s-heading>
 <s-icon type="cart" tone="auto" size="base"></s-icon>
 <s-image
-  src="https://example.com/image.png"
+  src="https://shopham-registry.onrender.com/image.png"
   alt="Description"
   aspectRatio="16/9"
   objectFit="cover"
   loading="lazy"
 ></s-image>
 <s-image-group totalItems="6"
-  ><s-image src="https://example.com/1.jpg" alt="Image 1"></s-image
-  ><s-image src="https://example.com/2.jpg" alt="Image 2"></s-image
+  ><s-image src="https://shopham-registry.onrender.com/1.jpg" alt="Image 1"></s-image
+  ><s-image src="https://shopham-registry.onrender.com/2.jpg" alt="Image 2"></s-image
 ></s-image-group>
-<s-link href="https://example.com" tone="auto">Link text</s-link>
+<s-link href="https://shopham-registry.onrender.com" tone="auto">Link text</s-link>
 <s-map
   apiKey="KEY"
   latitude="{43.65}"
@@ -247,7 +247,7 @@ Refer to the developer documentation to find all valid values for a prop. Ensure
 >
 <s-press-button accessibilityLabel="Favorite" pressed>★</s-press-button>
 <s-product-thumbnail
-  src="https://example.com/product.jpg"
+  src="https://shopham-registry.onrender.com/product.jpg"
   alt="Blue T-Shirt"
   size="base"
 ></s-product-thumbnail>
@@ -258,7 +258,7 @@ Refer to the developer documentation to find all valid values for a prop. Ensure
   accessibilityLabel="75% complete"
 ></s-progress>
 <s-qr-code
-  content="https://example.com"
+  content="https://shopham-registry.onrender.com"
   size="base"
   border="base"
   accessibilityLabel="Scan to visit"

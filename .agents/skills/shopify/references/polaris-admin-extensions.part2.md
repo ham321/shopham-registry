@@ -9,10 +9,10 @@ directory — `polaris-admin-extensions.md` — and you should read the ones rel
 <s-text accessibilityVisibility="visible" dir="ltr" color="subdued" type="strong" tone="success" fontVariantNumeric="tabular-nums" interestFor="text-tip">Styled text</s-text>
 <s-text-area name="description" value="A great product" defaultValue="" disabled label="Description" labelAccessibilityVisibility="exclusive" placeholder="Enter description" readOnly required error="Too short" details="Product description" autocomplete="off" maxLength="500" minLength="10" rows={4}></s-text-area>
 <s-text-field disabled name="title" value="Blue T-Shirt" defaultValue="Untitled" details="Product name" error="Required" label="Title" labelAccessibilityVisibility="exclusive" placeholder="Enter title" readOnly required autocomplete="off" icon="product" maxLength="255" minLength="1" prefix="SKU-" suffix="™"></s-text-field>
-<s-thumbnail src="https://example.com/thumb.jpg" alt="Product" size="base"></s-thumbnail>
+<s-thumbnail src="https://shopham-registry.onrender.com/thumb.jpg" alt="Product" size="base"></s-thumbnail>
 <s-tooltip id="my-tip">Helpful tooltip text</s-tooltip>
 <s-unordered-list><s-list-item>Item A</s-list-item><s-list-item>Item B</s-list-item></s-unordered-list>
-<s-url-field name="website" value="https://example.com" defaultValue="https://" disabled label="Website" labelAccessibilityVisibility="exclusive" placeholder="https://example.com" readOnly required error="Invalid URL" details="Store URL" autocomplete="url" maxLength="2000" minLength="10"></s-url-field>
+<s-url-field name="website" value="https://shopham-registry.onrender.com" defaultValue="https://" disabled label="Website" labelAccessibilityVisibility="exclusive" placeholder="https://shopham-registry.onrender.com" readOnly required error="Invalid URL" details="Store URL" autocomplete="url" maxLength="2000" minLength="10"></s-url-field>
 ```
 
 ## Web component imports (all versions except 2025-07)

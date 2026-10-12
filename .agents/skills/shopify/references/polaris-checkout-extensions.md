@@ -133,7 +133,7 @@ Refer to the developer documentation to find all valid values for a prop. Ensure
   <s-choice value="1">Option 1</s-choice>
   <s-choice value="2">Option 2</s-choice>
 </s-choice-list>
-<s-clickable href="https://example.com">Click area</s-clickable>
+<s-clickable href="https://shopham-registry.onrender.com">Click area</s-clickable>
 <s-clickable-chip>Removable tag</s-clickable-chip>
 <s-clipboard-item text="Copy this text"></s-clipboard-item>
 <s-consent-checkbox label="Subscribe to marketing"></s-consent-checkbox>
@@ -154,8 +154,8 @@ Refer to the developer documentation to find all valid values for a prop. Ensure
 </s-grid>
 <s-heading>Section Title</s-heading>
 <s-icon type="check" size="base"></s-icon>
-<s-image src="https://example.com/image.png" alt="Description"></s-image>
-<s-link href="https://example.com">Link text</s-link>
+<s-image src="https://shopham-registry.onrender.com/image.png" alt="Description"></s-image>
+<s-link href="https://shopham-registry.onrender.com">Link text</s-link>
 <s-map
   latitude="{40.7128}"
   longitude="{-74.006}"
@@ -181,11 +181,11 @@ Refer to the developer documentation to find all valid values for a prop. Ensure
 <s-popover id="pop"><s-text>Popover content</s-text></s-popover>
 <s-press-button>Toggle</s-press-button>
 <s-product-thumbnail
-  src="https://example.com/product.png"
+  src="https://shopham-registry.onrender.com/product.png"
   size="base"
 ></s-product-thumbnail>
 <s-progress value="{0.5}" max="{1}" tone="auto"></s-progress>
-<s-qr-code content="https://example.com" size="base"></s-qr-code>
+<s-qr-code content="https://shopham-registry.onrender.com" size="base"></s-qr-code>
 <s-query-container containerName="main">Content</s-query-container>
 <s-scroll-box maxBlockSize="200px">Scrollable content</s-scroll-box>
 <s-section heading="Section"><s-text>Section content</s-text></s-section>

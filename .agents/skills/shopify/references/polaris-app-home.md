@@ -39,7 +39,7 @@ Refer to the developer documentation to find all valid values for a prop. Ensure
 ```tsx
 <s-avatar
   initials="JD"
-  src="https://example.com/avatar.jpg"
+  src="https://shopham-registry.onrender.com/avatar.jpg"
   size="base"
   alt="Jane Doe"
 ></s-avatar>
@@ -98,7 +98,7 @@ Refer to the developer documentation to find all valid values for a prop. Ensure
 <s-email-field
   label="Email"
   name="email"
-  placeholder="you@example.com"
+  placeholder="you@shopham-registry.onrender.com"
   autocomplete="email"
   required
 ></s-email-field>
@@ -108,13 +108,13 @@ Refer to the developer documentation to find all valid values for a prop. Ensure
 <s-heading>Section Title</s-heading>
 <s-icon type="cart" tone="auto" color="base" size="base"></s-icon>
 <s-image
-  src="https://example.com/image.png"
+  src="https://shopham-registry.onrender.com/image.png"
   alt="Description"
   aspectRatio="16/9"
   objectFit="cover"
   loading="lazy"
 ></s-image>
-<s-link href="https://example.com" tone="auto">Link text</s-link>
+<s-link href="https://shopham-registry.onrender.com" tone="auto">Link text</s-link>
 <s-button commandFor="actions-menu" icon="menu-vertical"></s-button>
 <s-menu id="actions-menu" accessibilityLabel="Actions"
   ><s-button icon="edit" variant="tertiary">Edit</s-button></s-menu
@@ -202,7 +202,7 @@ Refer to the developer documentation to find all valid values for a prop. Ensure
   required
 ></s-text-field>
 <s-thumbnail
-  src="https://example.com/thumb.jpg"
+  src="https://shopham-registry.onrender.com/thumb.jpg"
   alt="Product"
   size="small"
 ></s-thumbnail>
